@@ -1,0 +1,70 @@
+/* Style your components */
+.trip {
+  margin: 1rem 1rem;
+  /* color: #2a2a2a; */
+  padding: 15px;
+  background-image: linear-gradient(
+    174.2deg,
+    #817f79 7.1%,
+    rgb(253, 253, 253) 67.4%
+  );
+  border-radius: 20px;
+}
+.trip h2 {
+  color: rgb(0, 0, 0);
+}
+.cards {
+  display: flex;
+  background-color: rgba(190, 184, 184, 0.05);
+  justify-content: space-between;
+  /* align-items: center; */
+  gap: 5%;
+  padding: 30px 30px;
+  /* margin: 20px 20px; */
+  margin-top: 2rem;
+  cursor: pointer;
+}
+.t-card {
+  /* width: 78%; */
+  /* background-color: rgb(141, 132, 128); */
+  background-color: #ffffff;
+  background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+
+  box-shadow: 0 5px 25px 2px rgba(0, 0, 0, 0.3);
+  border-radius: 7px;
+  /* padding: 1rem 0.8rem; */
+}
+.trip h1 {
+  font-family: "Cinzel", serif;
+  color: #000000;
+}
+.trip-img {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 7px;
+}
+.trip-img img {
+  width: auto;
+  margin-top: 15px;
+  height: 100px;
+  transition: 0.3s ease-in-out;
+  border-radius: 7px;
+}
+.trip-img:hover img {
+  transform: scale(1.15);
+}
+@media screen and (max-width: 850px) {
+  .trip {
+    margin: 4rem 2rem;
+  }
+  .cards {
+    flex-direction: column;
+    align-items: center;
+    /* padding: 50px 130px; */
+  }
+  .t-card {
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+}

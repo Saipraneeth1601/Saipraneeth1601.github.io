@@ -1,0 +1,141 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    /* height: 100vh; */
+    
+
+  }
+  .right{
+    justify-content: right;
+    align-items: right;
+  }
+  
+  .left {
+    flex-basis: 50%;
+    height: 650px;
+    width:500px;
+    
+  }
+  .welcome{
+    background-color: transparent;
+    color: white;
+    font-size: 50px;
+    height: 140px;
+    width: 340px;
+    border-color: transparent;
+    margin-left: 80px;
+    
+  }
+  .welcome1{
+    background-color: transparent;
+    color: rgb(123, 123, 215);
+    font-size: 30px;
+    height: 50px;
+    width: 400px;
+    margin-left: 80px;
+    border-color: transparent;
+    
+  }
+  .welcome2{
+    background-color: transparent;
+    color: rgb(123, 123, 215);
+    font-size: 30px;
+    height: 40px;
+    margin-left: 80px;
+    width: 600px;
+    border-color: transparent;
+  }
+  
+  .left img {
+    max-width:4000px;
+    height:650px;
+  }
+  .left{
+      float: left;
+  }
+  .text1{
+    background: none;
+  }
+  .right {
+    flex-basis: 35%;
+    text-align: center;
+    background-color: white;
+    height: 350px;
+    float: right;
+    border-radius: 20px;
+    margin-right: -10px;
+    
+  }
+  
+  .right h1 {
+    font-size: 2rem;
+    margin-top: 10;
+    color:rgb(2, 2, 56);
+  }
+  
+  .right form {
+    max-width: 400px;
+    margin-left: 40px;
+    
+  }
+  
+  .right .form-group {
+    text-align: left;
+    margin-bottom: 1rem;
+    color:rgb(3, 3, 52);
+    width: 340px;
+  }
+  .check{
+    text-align:left;
+
+  }
+  
+  
+  .right label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+
+  
+  .input1 {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    /* margin-bottom: 1rem; */
+  }
+ 
+  .right button {
+    background-color:rgb(2, 2, 59);
+    color: white;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 25px;
+    margin-left: -10px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  .a{
+    color: darkblue;
+  }
+  .check{
+    color: rgb(5, 5, 64);
+  }
+  .right button:hover {
+    background-color: rgb(1, 39, 1);
+  }
+  
+  @media screen and (max-width: 768px) {
+    .left, .right {
+      flex-basis: 100%;
+      text-align: center;
+    }
+  
+}

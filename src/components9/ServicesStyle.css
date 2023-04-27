@@ -1,0 +1,49 @@
+.services {
+  background-color: rgba(82, 81, 79, 0.21);
+  padding-top: 150px;
+  border-radius: 15px;
+}
+.servicecards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* grid-template-rows: 1fr 1fr; */
+  justify-content: space-between;
+  background-color: rgba(249, 253, 253, 0.626);
+  gap: 70px;
+  column-gap: 70px;
+  row-gap: 50px;
+  padding: 50px 100px;
+  margin-top: 2rem;
+  border-radius: 15px;
+}
+.s-card {
+  /* background-color: rgba(17, 15, 15, 0.808); */
+  background-image: linear-gradient(
+    270.3deg,
+    rgba(84, 212, 228, 1) 0.2%,
+    rgba(68, 36, 164, 1) 100%
+  );
+  padding: 40px 40px;
+  border-radius: 10px;
+  box-shadow: 0 5px 25px 2px rgba(124, 125, 125, 0.87);
+}
+.service-card {
+  color: #fff;
+}
+.s-card p {
+  color: cornsilk;
+}
+@media screen and (max-width: 850px) {
+  .services {
+    margin: 4rem 2rem;
+  }
+  .servicecards {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+  }
+  .s-card {
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+}

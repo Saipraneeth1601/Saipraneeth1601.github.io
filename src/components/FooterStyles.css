@@ -1,0 +1,81 @@
+/* Style your components */
+.footer {
+  /* background-color: rgba(0, 0, 0, 0.906); */
+  padding: 10px 5px;
+  background-color: #130f40;
+  background-image: linear-gradient(315deg, #0a0a0a 0%, #000000 74%);
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 50px;
+}
+.sm {
+  display: flex;
+  gap: 5px;
+}
+.sm i {
+  color: #ffaa01;
+}
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 50px;
+  /* color: rgb(245, 98, 6); */
+}
+.address h4 {
+  color: #f74300;
+}
+.address {
+  color: #f4f4f4;
+  align-items: flex-start;
+}
+.belements {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* color: rgb(255, 255, 255); */
+  color: #f74300;
+}
+
+.belements a {
+  color: #f74300;
+}
+
+.footer-logo img {
+  width: 50px;
+  height: 50px;
+  padding-right: 2px;
+  /* position: relative; */
+}
+.footer-logo h1 {
+  font-size: x-large;
+}
+.footer-logo {
+  color: #222;
+  font-size: 2rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  background-color: rgb(132, 132, 132);
+  padding: 3px 3px;
+  border-radius: 5px;
+}
+.footer a {
+  color: #fff;
+}
+.address {
+  text-align: left;
+}
+@media screen and (max-width: 850px) {
+  .bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    /* justify-content: space-between; */
+    margin: 20px 50px;
+    color: #fff;
+  }
+}

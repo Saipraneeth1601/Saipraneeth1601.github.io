@@ -1,0 +1,60 @@
+.login {
+  min-height: 100vh;
+}
+#form {
+  width: 400px;
+  margin-left: 100px;
+  background-image: linear-gradient(
+    90.1deg,
+    rgb(93, 211, 226) 0.2%,
+    rgb(76, 35, 199) 99.9%
+  );
+  border-radius: 10px;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  #form {
+    width: 450px;
+    margin-left: 10px;
+  }
+}
+.bg-image {
+  background-image: url("C:\Users\850066817\Desktop\ReactProject\trippy\src\assets\5165306.jpg");
+  background-size: cover;
+  /* position: relative;
+  left: 112px; */
+  background-repeat: no-repeat;
+}
+b {
+  color: #ffffff;
+}
+.form-check-label {
+  color: #ffffff;
+}
+
+@media screen and (max-width: 480px) {
+  #form {
+    margin-left: 30px;
+    width: 280px;
+  }
+}
+
+.login-heading {
+  font-weight: 400;
+  font-size: 30px;
+  text-align: center;
+  padding: 25px;
+  color: rgb(47, 3, 105);
+}
+.btn-login {
+  font-size: 0.9rem;
+  letter-spacing: 0.05rem;
+  padding: 0.75rem 1rem;
+  box-sizing: 100vh;
+  background-color: rgb(57, 57, 250);
+}
+
+.small {
+  color: rgb(228, 198, 198);
+}
